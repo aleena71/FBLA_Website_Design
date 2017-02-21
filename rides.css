@@ -1,0 +1,43 @@
+body {
+  font-family: "Lucida Sans Unicode";
+}
+h2 {
+  text-align: center;
+}
+button.reserv{   /* used for reservation & contact button */
+  background-color: black;
+  font-size: 15px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}
+h2          {
+  font-size: 30px;
+}
+
+.rides      {
+  height: 200px;
+}
+.container  {
+  width: 1200px;
+  height: 200px;
+  padding-bottom: 75px;
+}
+.ferris   {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+.bumper   {
+  width: 400px;
+  height: 200px;
+  float: left;
+}
+.grav      {
+  width: 400px;
+  height: 200px;
+  float: right;
+}

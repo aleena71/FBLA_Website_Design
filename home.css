@@ -1,0 +1,48 @@
+.parallax {
+    /* The image used */
+    background-image: url("ferris.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2 {
+    /* The image used */
+    background-image: url("rollercoaster.jpg");
+
+    /* Set a specific height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button.login{
+    background-color: rgb(80, 80, 80);
+    font-size: 13px;
+    padding: 9px 10px;
+    border: none;
+    float: right;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+button.reserv{   /* used for reservation & contact button */
+  margin-top: 20px;
+  background-color: black;
+  font-size: 20px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}

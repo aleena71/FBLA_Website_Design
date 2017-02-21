@@ -1,0 +1,59 @@
+<html>
+  <head>
+  <title>
+    Reservation
+  </title>
+  <link rel="stylesheet" type="text/css" href="reservation.css">
+  <script src="reservprac.js"></script>
+
+  </head>
+  <body>
+    <a href="home.html"><button class="reserv">Home</button></a>
+    <a href="contact.html"><button class="reserv">Contact Us</button></a>
+    <a href="rides.html"><button class="reserv">Explore our Rides</button></a>
+    <p>
+    <form action="welcome.html">
+    <center>
+    <div class="container">
+      <div class="left">
+      First name:<br>
+      <input id="firstn" type="text" name="firstname"><p>
+      Last name:<br>
+      <input id="lastn" type="text" name="lastname"><p>
+      Please select the day you wish to attend:<br>
+      <input id="date" type="date" name="attend"><p>
+      Number of adults attending:<br>
+      <input id="aduattend" type="number" name="adults" min="1"><p>
+      Number of children attending:<br>
+      <input id="childattend" type="number" name="children"><p>
+      Number of days you will be attending:<br>
+      <input id="numdays" type="number" name="daysattending" min="1"><p>
+      </div>
+      <div class="right">
+      Which activities would you like to attend:<br>
+      <input type="checkbox" id="a1" name="activities" value="activity1">Activity 1<br>
+      <input type="checkbox" id="a2" name="activities" value="activity2">Activity 2<br>
+      <input type="checkbox" id="a3" name="activities" value="activity3">Activity 3<br>
+      <input type="checkbox" id="a4" name="activities" value="activity4">Activity 4<br>
+      <input type="checkbox" id="a5" name="activities" value="activity5">Activity 5<p>
+      Are there any handicapped persons within your party?<br>
+      <input type="radio" id="disyes" name="disabeled" value="yes">Yes<br>
+      <input type="radio" id="disno" name="disabeled" value="no">No<p>
+      If yes, how many?<br>
+      <input type="number" id="numdisabeled" name="disabeledyes" min="1"><p>
+      Does anyone within your party have any allergies?<br>
+      <input type="radio" id="allergiesyes" name="allergies" value="yes">Yes<br>
+      <input type="radio" id="allergiesno" name="allergies" value="no">No<p>
+      If yes, please explain.<br>
+      <textarea id="allergiesexplain" rows="4" cols="50" name="allergies"></textarea>
+      </div>
+    </div>
+    </center>
+    <center><input type="submit" value="Submit" class="reserv">
+    </center>
+    </form>
+    <button id="reservbutton" onclick="myFunction()" class="reserv">Review Reservation</button>
+    <p id="greeting"></p>
+    <button id="buttonprint" onclick="Print()" class="reserv">Print this page</button>
+  </body>
+</html>

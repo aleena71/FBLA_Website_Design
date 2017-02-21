@@ -1,0 +1,49 @@
+body{
+  font-family: "Arial";
+  font-size: 16px;
+  background-image: url("pastel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+input.text{
+  line-height: 40%;
+}
+.container{
+  width: 800px;
+  height: 500px;
+}
+.left     {
+  width: 400px;
+  height: 500px;
+  float: left;
+}
+.right    {
+  width: 400px;
+  height: 500px;
+  float: left;
+  display: block;
+}
+.reserv{   /* used for reservation & contact button */
+  background-color: black;
+  font-size: 15px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}
+.greeting   {
+  font-size: 18px;
+}
+/* p.greeting {
+  string-set: doctitle content();
+}
+@page{
+    content: string(doctitle);
+    margin: 10pt 0 30pt 0;
+    border-top: .25pt solid #666;
+    content: ;
+    font-size: 9pt;
+    color: #333;
+  } */

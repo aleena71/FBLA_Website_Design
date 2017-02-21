@@ -1,0 +1,47 @@
+.container{
+  width: 100%;
+  height: 1200px;
+}
+.top     {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  float: left;
+  background-image: url("bgpastel2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle    {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  display: block;
+  background-image: url("bgpastel1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottom     {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  float: left;
+  clear: both;
+}
+body        {
+  font-family: "Tahoma";
+  font-size: 20px;
+}
+img.bday    {
+  width: 200px;
+}
+.reserv{   /* used for reservation & contact button */
+  background-color: black;
+  font-size: 15px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}

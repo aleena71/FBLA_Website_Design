@@ -1,0 +1,24 @@
+body{
+    font-family: "Calibri";
+    background-color: #F0E5FB;
+}
+form {
+  margin-top: 100px;
+}
+.submit {    /* used for submit & reset button */
+  background-color: black;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  cursor: pointer;
+}
+button.reserv{   /* used for reservation & contact button */
+  background-color: black;
+  font-size: 15px;
+  padding: 9px 10px;
+  border: none;
+  color: white;
+  text-decoration: none;
+  font-family: "Candara";
+  cursor: pointer;
+}
